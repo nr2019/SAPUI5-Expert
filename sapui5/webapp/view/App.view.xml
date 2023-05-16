@@ -1,0 +1,8 @@
+<mvc:View controllerName="nryzy.sapui5.controller.App" 
+xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    <Button text="{i18n>showHelloButtonText}" press=".onMostrarSaludo"></Button>
+    <Input value="{/recipient/name}"
+           description="Hola {/recipient/name}"
+           valueLiveUpdate="true"
+           width="60%"></Input>
+</mvc:View>
