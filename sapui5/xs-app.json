@@ -3,6 +3,13 @@
   "authenticationMethod": "route",
   "routes": [
     {
+      "authenticationType": "xsuaa",
+      "csrfProtection": false,
+      "source": "^/Northwind/V2/Northwind/Northwind.svc/(.*)$",
+      "destination": "Northwind",
+      "target": "$1"
+    },
+    {
       "source": "^/resources/(.*)$",
       "target": "/resources/$1",
       "authenticationType": "none",

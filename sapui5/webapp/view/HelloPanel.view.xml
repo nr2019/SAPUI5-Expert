@@ -1,0 +1,22 @@
+<mvc:View controllerName="nryzy.sapui5.controller.HelloPanel" 
+        xmlns="sap.m" 
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:core="sap.ui.core"
+        displayBlock="true">
+    <Panel headerText="{i18n>helloPanel}" class="sapUiResponsiveMargin" width="auto">
+        <content>
+            <Button id="helloDialogButton" 
+                    icon="sap-icon://action" 
+                    text="{i18n>helloDialogBut}" 
+                    press=".onOpenDialog" 
+                    class="sapUiSmallMarginEnd"/>
+            <Button text="{i18n>showHelloButtonText}" press=".onMostrarSaludo" class="sapUiSmallMarginEnd"/>
+            <Input value="{/recipient/name}"
+                
+                valueLiveUpdate="true"
+                width="60%"/>
+            <Text text="Hola {/recipient/name}" class="sapUiSmallMargin boldElements sapThemeHighlight-asColor"/>
+        </content>
+    </Panel>
+    <core:Fragment fragmentName="nryzy.sapui5.view.Form01" type="XML"/>
+</mvc:View>
