@@ -16,7 +16,7 @@
       "toolsId": "b36aad42-7aa0-46c9-9d41-afb11062a51f"
     },
     "dataSources": {
-      "Northwind.svc": {
+      "mainService": {
         "uri": "Northwind/V2/Northwind/Northwind.svc/",
         "type": "OData",
         "settings": {
@@ -65,19 +65,15 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "nryzy.sapui5.i18n.i18n",
-          "supportedLocales": [
-            "",
-            "es"
-          ]
+          "bundleName": "nryzy.sapui5.i18n.i18n"
         }
       },
       "invoices": {
         "type": "sap.ui.model.json.JSONModel",
         "uri": "Invoices.json"
       },
-      "": {
-        "dataSource": "Northwind.svc",
+      "northwind": {
+        "dataSource": "mainService",
         "preload": true,
         "settings": {
           "defaultBindingMode": "TwoWay",
