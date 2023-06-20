@@ -3,7 +3,7 @@ sap.ui.define([
     "sap/ui/core/util/MockServer",
     "sap/ui/model/json/JSONModel",
     "sap/base/util/UriParameters",
-    "sap/base/Log"
+    "sap/base/Log" 
 ], 
 /**
  * 

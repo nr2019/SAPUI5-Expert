@@ -39,4 +39,4 @@ function (mockserver, opaQunit) {
 		//Para liberar los recursos
 		Then.iTeardownMyApp();
 	});
-});
+}); 

@@ -29,7 +29,7 @@ sap.ui.define([
                         });
                     }
                 },
-
+ 
                 assertions: {
                     iSeeTheHelloDialog: function () {
                         return this.waitFor({

@@ -8,7 +8,7 @@ sap.ui.define([
 		onTheViewPage: {
 
 			actions: {},
-
+ 
 			assertions: {
 
 				iShouldSeeThePageView: function () {

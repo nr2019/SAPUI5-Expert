@@ -25,7 +25,7 @@ sap.ui.define([
                 this._oResourceModel.destroy();
             }
         }
-        );
+        ); 
 
         QUnit.test("Debería devolver el estado de la factura", function (assert) {
             //var oAppController = new Controller();

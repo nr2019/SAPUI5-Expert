@@ -4,7 +4,7 @@
         <Schema Namespace="NorthwindModel" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
             <EntityType Name="Category">
                 <Key>
-                    <PropertyRef Name="CategoryID" />
+                    <PropertyRef Name="CategoryID" /> 
                 </Key>
                 <Property Name="CategoryID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
                 <Property Name="CategoryName" Type="Edm.String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />

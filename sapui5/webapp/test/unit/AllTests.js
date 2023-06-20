@@ -4,4 +4,4 @@ sap.ui.define([
 	"nryzy/sapui5/test/unit/model/InvoicesFormatter"
 ], function () {
 	"use strict";
-});
+}); 
