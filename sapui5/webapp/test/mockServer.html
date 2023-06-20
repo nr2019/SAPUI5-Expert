@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Mock Server</title>
+        <script id="sap-ui-bootstrap" 
+                src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+                data-sap-ui-theme="sap_fiori_3"
+                data-sap-ui-resourceroots='{"nryzy.sapui5": "../"}'
+                data-sap-ui-oninit="module:nryzy/sapui5/test/initMockServer"
+                data-sap-ui-compatVersion="edge"
+                data-sap-ui-async="true"
+                data-sap-ui-frameOptions="trusted"></script>
+        
+    </head>
+    <body id="content" class="sapUiBody">
+        <div  data-sap-ui-component 
+        data-name="nryzy.sapui5"
+        data-id="container"
+        data-set-settings='{"id"="sapui5"}'></div>
+    </body>
+</html>

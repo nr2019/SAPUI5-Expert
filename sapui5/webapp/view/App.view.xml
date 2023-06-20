@@ -1,0 +1,25 @@
+<mvc:View controllerName="nryzy.sapui5.controller.App" 
+        xmlns="sap.m" 
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:core="sap.ui.core"
+        displayBlock="true">
+    <Shell id="sh1">
+        <App id="app1"> 
+            <pages>
+                <Page  title="{i18n>appTitle}">
+                    <headerContent>
+                        <Button id="helloDialogHeader"
+                                icon="sap-icon://action"
+                                press="onOpenDialogHeader"
+                                class="sapUiSmallMarginEnd"/>
+                    </headerContent>
+
+                    <content>
+                       <mvc:XMLView viewName="nryzy.sapui5.view.HelloPanel"/>
+                       <mvc:XMLView viewName="nryzy.sapui5.view.InvoicesList"/>
+                    </content>
+                </Page>
+            </pages>
+        </App>    
+    </Shell>        
+</mvc:View>
